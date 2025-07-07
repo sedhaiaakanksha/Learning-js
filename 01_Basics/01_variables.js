@@ -7,6 +7,6 @@ let accName; // undefined variable
 
 accPass= "lol123"; //value of variable can be changed 
 
-console.log(accName);
+console.log(accName); //prints single variable
 
-console.table([accId,accEmail, accPass, accAddress, accName ]);     // prints data in table.
+console.table([accId,accEmail, accPass, accAddress, accName ]);     // prints multiple variable in table in table.
