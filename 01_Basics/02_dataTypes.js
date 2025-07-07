@@ -5,9 +5,12 @@
 
 // cod readabiliy should be high.
 
+
 let name="Name";// string datatype
 let age= 18;// integer datatype
 let isActive= false; // boolean
+
+console.log(typeof(isActive)) // is used to check the type of the variable.
 
 // TYPES OF DATA TYPES IN JAVASCRIPT
 /*
@@ -23,6 +26,10 @@ symbol => unique
 undefined => when value of that variable is not assigned.
 
 2.NON-PREMITIVE DATATYPE
+
+object
+
+important thing :: the type of null and undfined is object.
 
 */
 
