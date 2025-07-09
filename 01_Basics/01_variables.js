@@ -5,7 +5,7 @@ accAddress="somewhere"; // sometimes variable is declared like thiss to but it i
 let accName; // undefined variable
  
 
-accPass= "lol123"; //value of variable can be changed 
+accPass= "lol123"; //value  of variable can be changed 
 
 console.log(accName); //prints single variable
 
