@@ -23,13 +23,21 @@ console.log(playerInfo);
     
  }
 
+ //4. sYMBOLS -> it will make variables unique
+ let id= Symbol(123);
+ let anoId = Symbol(123);
+
+ console.log(id==anoId);
+ 
+
  let smth=null;
- console.log(typeof greatPlayers);
+ console.log(typeof Symbol);
  
 //type of function is function which is actually objectfunction
 //type of undefined is undefined.
 // type of object is object
 //type pf null is object 
 // type of array is object
+// type of symbol is object
 
 
