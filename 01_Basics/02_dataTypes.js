@@ -39,7 +39,7 @@ important thing :: the type of null and undfined is object.
 /*
 ############## Stack(primitive) and heap (non-premitive) ##############
 */
-
+// STACK
 let myName= "Aakanksha";
 let myNameNew= myName; // Here we get copy of the myName variable.
 myNameNew= "Not Aakanksha"// This wont change the actual value.
@@ -48,7 +48,7 @@ console.log(myNameNew);
 console.log(myName);
 
 
-
+// HEAP
 let myUser1={
     name:"Aakanksha",
     age:18
