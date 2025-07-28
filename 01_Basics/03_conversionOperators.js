@@ -1,6 +1,7 @@
 let score =33;
 console.log(typeof score);
 let scoreString= String(score);
+console.log(score);
 console.log(typeof scoreString);
 
 let isActive= -1;
@@ -38,7 +39,7 @@ Number to Boolean
 String to Number
 " sok" => NAN
 "123" => 123
-" "=>
+" "=>0
 */
 
 /*

@@ -9,6 +9,8 @@
 let name="Name";// string datatype
 let age= 18;// integer datatype
 let isActive= false; // boolean
+let bigNum= 1000000000000n;
+console.log(typeof bigNum);
 
 console.log(typeof(isActive)) // is used to check the type of the variable.
 
@@ -32,4 +34,29 @@ object
 important thing :: the type of null and undfined is object.
 
 */
+
+
+/*
+############## Stack(primitive) and heap (non-premitive) ##############
+*/
+
+let myName= "Aakanksha";
+let myNameNew= myName; // Here we get copy of the myName variable.
+myNameNew= "Not Aakanksha"// This wont change the actual value.
+
+console.log(myNameNew);
+console.log(myName);
+
+
+
+let myUser1={
+    name:"Aakanksha",
+    age:18
+
+}
+
+let myUser2=myUser1;// this will get the reference (direct value)
+myUser2.name="Someone"; // Here it will change the actual value.
+
+console.log(myUser1.name);
 
