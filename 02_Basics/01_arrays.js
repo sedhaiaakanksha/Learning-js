@@ -11,7 +11,16 @@ console.log(myArr);
 myArr.pop();
 console.log(myArr);
 
-// #### SLice and Splice
+
+// #### shift and unshift
+
+myArr.unshift(2);
+console.log(myArr); // unshift adds new element in 0th index
+myArr.shift();
+console.log(myArr); // Removes element from 0th index
+
+
+//#### SLice and Splice
 
 let newArr= [10,7,2,5,1]
 console.log("A "+ newArr);
