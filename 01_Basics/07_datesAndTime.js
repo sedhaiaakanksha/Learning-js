@@ -19,9 +19,7 @@ console.log(myCreatedDate.getMilliseconds());
 console.log(Date.now());
 
 //COnverting millisecond into second
-console.log("Converted into second {");
-console.log(Math.round(Date.now()/1000));
-console.log("}");
+console.log(` Millisecond converyed into second ->  ${Math.round(Date.now()/1000)}`);
 
 
 
