@@ -21,14 +21,17 @@ console.log(Math.round(Math.random()*10) +1)
 let max=20
 let min=5
 
+
+//For Specific range
 let random= Math.random()
 let range = (max-min)
 let floor=Math.floor(random*range)
+console.log(floor+1+(min));
 
+//Or
 console.log(Math.floor(Math.random()*(max-min))+1+(min));
 
 
-console.log(floor+1+(min));
 
 
 

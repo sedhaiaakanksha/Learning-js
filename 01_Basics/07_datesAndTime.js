@@ -32,3 +32,18 @@ console.log(myTimeStamp);
 
 
 console.log(myCreatedDate.getTime());
+
+//String interpolation
+console.log(`${myCreatedDate.getTime()} is todays date`);
+
+
+
+//Customized date and time using localeString
+
+
+let newDate= new Date();
+console.log("Customized print-> " + newDate.toLocaleString("defalt",{
+    weekday: "long",
+    year: "numeric",
+    day: "numeric",
+}));
