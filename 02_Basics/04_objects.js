@@ -57,6 +57,5 @@ console.log(Object.entries(otherUser));// return key and value in array form onr
 //.hasOwnProperty() ->checks if the key exists in that object or not returns boolean value.
 console.log(faceboolUser.hasOwnProperty("email"));
 
-console.log(faceboolUser.toString());
 
 
