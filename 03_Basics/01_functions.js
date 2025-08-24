@@ -39,7 +39,7 @@ function userLogin(username){
 
 console.log(userLogin("Aakanksha"));
 
-//##### function with object and array
+//##### function with object and array#########
 
 //shopping cart with function
 
@@ -47,3 +47,45 @@ function calculateCartPrice(...price){ //... i.e rest allows the price parameter
     return price;
 }
 console.log(calculateCartPrice(200,400,600));
+
+// multiple variable with (...) 
+function calculateCartPrice2(num1, num2, ...price){ //here first 2 argument will be stored in first two parameters and others in ...price
+    return price;
+}
+console.log(calculateCartPrice2(200,50,900,1,3,55,600));
+
+
+// FUNCTION WITH OBJECT
+
+const userInfo={
+    username:"aakanksha",
+    age:18
+ }
+
+function usingUserDetail(anyObject){
+    return `Name of user is ${anyObject.username} and their age is ${anyObject.age}`
+}
+
+console.log(usingUserDetail(userInfo));
+
+//We can also write it like 
+console.log(usingUserDetail({
+    username:"sam",
+    age:20
+}));
+
+
+
+//FUNCTION WITH ARRAY
+
+const myArray=[200,300,400,500,600,700]
+
+function usingArray(anyArray){
+    return `${anyArray[2]}`
+}
+
+console.log(usingArray(myArray));
+
+//OR we can also print it like
+
+console.log(usingArray([200,400,1000]));
