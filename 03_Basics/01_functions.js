@@ -38,3 +38,12 @@ function userLogin(username){
 }
 
 console.log(userLogin("Aakanksha"));
+
+//##### function with object and array
+
+//shopping cart with function
+
+function calculateCartPrice(...price){ //... i.e rest allows the price parameter to store multiple values.
+    return price;
+}
+console.log(calculateCartPrice(200,400,600));
