@@ -5,6 +5,9 @@ let employeeInfo={
     employeeJoinDate: "Jan-20, 2024"
 }
 
+// object destruction : a syntax that allows unpacking properties from objects into distinct variables. I
+// t is a form of assignment that makes it easier to extract values from data structures.
+
 const {id}= employeeInfo; //object destruction.
 
 const {employeeJoinDate: JoinDate}= employeeInfo; //We can also assign our own variable name.
