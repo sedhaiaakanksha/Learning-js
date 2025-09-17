@@ -45,3 +45,10 @@ console.log(subTwo(500,169));
  const empty =()=> console.log(this); // this keyword in arrow function returns empty object
 
  empty();
+
+
+ // We can also use arrow function to loop through array
+
+ const myArr=[ 1,2,3,4]
+
+ myArr.forEach( () => {}) // Can use some function here.
