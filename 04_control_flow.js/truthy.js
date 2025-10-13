@@ -14,3 +14,9 @@ console.log(score);
 
 const anotherScore= null ?? 15
 console.log(anotherScore);
+
+
+//Ternary operator
+const iceCream=60
+iceCream>=50 ? console.log("Its price is greater than 50"): console.log("Its price is less than 5o");
+
