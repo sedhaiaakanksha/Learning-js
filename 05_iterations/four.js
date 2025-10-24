@@ -20,3 +20,6 @@ for(const arr in myArr){
     
     
 }
+
+//we cannot use for in in maps
+
