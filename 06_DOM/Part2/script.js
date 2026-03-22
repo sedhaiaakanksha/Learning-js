@@ -65,7 +65,7 @@ document
   });
 
 // example 9
-addEventListener("DOMContentLoaded", function () {
+document.addEventListener("DOMContentLoaded", function () {
   document.getElementById("domStatus").textContent = "DOM fully loaded";
 });
 
